@@ -626,6 +626,9 @@ class PromptServer():
         async def post_prompt(request):
             logging.info("got prompt")
             json_data =  await request.json()
+
+            print(json_data)
+
             json_data = self.trigger_on_prompt(json_data)
 
             if "number" in json_data:

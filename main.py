@@ -97,7 +97,6 @@ def execute_prestartup_script():
 apply_custom_paths()
 execute_prestartup_script()
 
-
 # Main code
 import asyncio
 import shutil
@@ -152,7 +151,6 @@ def cuda_malloc_warning():
                 cuda_malloc_warning = True
         if cuda_malloc_warning:
             logging.warning("\nWARNING: this card most likely does not support cuda-malloc, if you get \"CUDA error\" please run ComfyUI with: --disable-cuda-malloc\n")
-
 
 def prompt_worker(q, server_instance):
     current_time: float = 0.0
