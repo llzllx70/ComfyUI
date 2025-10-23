@@ -29,6 +29,10 @@
 
 - 工作流位于: /home/double/vsproject/ComfyUI/user/default/workflows
 
+## 已内置hunyuan3d-v2.1
+
+![alt text](d2732081-f30c-4b66-8c92-7af508dca65e.png)
+
 
 # Hunyuan3D
 
@@ -36,6 +40,7 @@
 - 在线生成: https://3d.hunyuan.tencent.com/
 - 效果好不少, 用的是v3.0, 效果比较好, 可能比开放出来的最高v2.1好
 - 调用生成3D白膜，一次20积分，2元
+- 目前效果看没必要自己部署
 ![alt text](image-6.png)
 ![alt text](image-5.png)
 
@@ -49,15 +54,21 @@
 
 
 ## v2.1
+
 - https://github.com/comfyanonymous/ComfyUI/pull/8714 (重点看这个pull)
 - hunayuan3d-v2.1效果好不少，基本可用
 
 ![alt text](image-8.png)
+
 - 存在部分图像生成为正文体的情况
+
+![alt text](image-9.png)
 
 
 
 # TripoSR
+
+- https://github.com/VAST-AI-Research/TripoSR
 
 - 由Stability AI 发布
 - 网站中也要收费
