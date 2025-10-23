@@ -1,0 +1,72 @@
+h1 { color: #d16d6d; font-size: 20px; font-family: "微软雅黑", "Microsoft YaHei", "雅黑", "YaHei", sans-serif;}
+h2 { color: #6dd18d; font-size: 18px; font-family: "微软雅黑", "Microsoft YaHei", "雅黑", "YaHei", sans-serif;}
+h3 { color: #6d9dd1; font-size: 16px; font-family: "微软雅黑", "Microsoft YaHei", "雅黑", "YaHei", sans-serif;}
+h4 { color: #800080; font-size: 14px; font-family: "微软雅黑", "Microsoft YaHei", "雅黑", "YaHei", sans-serif;}
+body { font-size: 12px; font-family: "微软雅黑", "Microsoft YaHei", "雅黑", "YaHei", sans-serif;}
+
+details > * {
+  padding-left: 20px; /* 整个 details 内的内容左侧缩进20px */
+}
+
+details pre {
+  margin-left: 30px;
+}
+
+details > :not(summary) {
+  margin-left: 30px;  /* 让展开内容整体缩进20px */
+}
+
+/* 针对 diff 代码块 */
+code.language-diff .hljs-addition {
+  color: #FCAF50;        /* 绿色文字 */
+  background: transparent !important;  /* 去掉背景 */
+}
+
+code.language-diff .hljs-deletion {
+  color: #F44336;        /* 红色文字 */
+  background: transparent !important;  /* 去掉背景 */
+}
+
+
+/* 初始化计数器 */
+body {
+  counter-reset: h1counter;
+}
+
+/* 一级标题 */
+h1 {
+  counter-reset: h2counter;
+}
+h1::before {
+  counter-increment: h1counter;
+  content: counter(h1counter) ". ";
+  font-weight: bold;
+}
+
+/* 二级标题 */
+h2 {
+  counter-reset: h3counter;
+}
+h2::before {
+  counter-increment: h2counter;
+  content: counter(h1counter) "." counter(h2counter) " ";
+}
+
+/* 三级标题 */
+h3 {
+  counter-reset: h4counter;
+}
+h3::before {
+  counter-increment: h3counter;
+  content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) " ";
+}
+
+/* 四级标题 */
+h4 {
+  counter-reset: h5counter;
+}
+h4::before {
+  counter-increment: h4counter;
+  content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) " ";
+}
+
