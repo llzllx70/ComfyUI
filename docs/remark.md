@@ -21,6 +21,13 @@
 
 - http://172.16.2.xx:8188/
 
+## 安装ComfyUI管理器: 
+- (ComfyUI) double@CP-001:~/vsproject/ComfyUI/custom_nodes$ git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+- 安装后重启在主界面右上会出现一个管理器的图标
+  
+![alt text](image-10.png)
+
+
 ## 在ComfyUI 中使用Hunyuan3D
 
 - 参考其中的说明: https://docs.comfy.org/tutorials/3d/hunyuan3D-2
@@ -87,8 +94,22 @@
 # 结论
 - 照片 -> Q图，效果比较好
 
+# taobao
+
+![alt text](image-11.png)
+
+# xiaohongshu / 豆包
+
+参考我发给你的照片形象, 创建 1 张真实风格的手办盲盒泡罩式包装照片, 画面完整展示整个精美包装。包装比例是: 2:3, 包装采用泡罩式结构, 由以下部分组成: 白色卡纸底板 (顶部设有挂钩) 和透明塑料泡罩。泡罩罩住人物和配件, 其中包含 1 个精致的 3D 打印人物 (人物表情特征要参考图片) 和 3 个角色中的穿搭配件, 人物摆放在左侧较大区域, 右侧分隔为 3 个小格, 整齐摆放 3 件配件。人物风格为 Q 版卡通, 手办盲盒玩具。角色可爱, 脸圆, 大眼睛, 整体风格像潮玩模型展示。人物细节要精致, 要有参考图形象的特征, 质感像 3D 打印玩偶。底板顶部写着标题文字 “TREASURE”, 右上角小字写着 “designed by SY”。包装参考照片的配色。画面背景是照片的场景。比例「2:3」
+
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
 # todo
 
 1. hunyuan3d-v2.1 multiview
 2. 图片Q化
 3. 是否可以在Blender中做光滑处理
+4. 要去除背景
+5. 脸部扣除，保留身体，在blender 中将脸部补上去
