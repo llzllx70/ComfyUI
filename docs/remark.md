@@ -82,6 +82,11 @@
 
 # Trellis-3D
 
+- 微软开源，说是开源最强
+- 可以基于 https://github.com/microsoft/TRELLIS 进行训练
+
+# Hyper3D
+
 # Seed3D 1.0 （ByteDance）
 
 - 先不考虑，没有开源
@@ -113,3 +118,9 @@
 3. 是否可以在Blender中做光滑处理
 4. 要去除背景
 5. 脸部扣除，保留身体，在blender 中将脸部补上去
+
+# 主要问题
+
+- 目前主要问题是生成3D模型效果差，hunyuan 开源的不行
+- AI 重塑模型
+
